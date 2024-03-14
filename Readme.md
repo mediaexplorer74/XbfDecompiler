@@ -1,20 +1,26 @@
-# XBFDecompiler
+# XBFDecompiler 1.0
 
-My fork of [XBFDecompiler](https://github.com/TeamGnome/XbfDecompiler) desktop app, for some my own interests. :)
+Simplest XBF ("XAML files") decompiler.
+
+## About
+To make the normal WP8 app reverse engeneering, you need this simple and cool tool to "re-construct" XAML files (from XBF-files that you can find at appxbundle "archive"). This thing needed at some moments where R.E. tools can't complete "full reverse" of .exe/.dll due some specifics (UWP / ARM / WP8 / etc.) 
 
 ## Screenshots
 
 ![image](/Images/shot1.png)
 
-## Tech. moment
-.NET Framework : 4.5 -> 4.8
+## Tech. details
+- VS 2022 used as my workbench.
+- Classic Desktop app. No installer, only "executable".
+- .NET 4.8 used.
 
-## Problem
-To make the normal WP8 app reverse engeneering, you need this simple and cool tool to "re-construct" XAML files (from XBF-files that you can find at appxbundle "archive"). This thing needed at some moments where R.E. tools can't complete "full reverse" of .exe/.dll due some specifics (UWP / ARM / WP8 / etc.) 
+
+## Reference(s)
+[XBFDecompiler](https://github.com/TeamGnome/XbfDecompiler) desktop app
 
 ## ..
 
-As is. Internal use only. 
+As is. No Support. Developers only. :)
 
 # .
 [m][e] 2023
